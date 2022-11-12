@@ -6,7 +6,7 @@ import org.hibernate.cfg.Configuration;
 public class ConnectManager {
 private static final String url = "jdbc:postgresql://localhost:5432/Person";
 private static final String username = "postgres";
-private static final String password = "Zil131";
+private static final String password = "postgres";
 public static SessionFactory sessionFactory;
 
 public static SessionFactory getSessionFactory(){
